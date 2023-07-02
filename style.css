@@ -1,0 +1,158 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+div.relative {
+  position: relative;
+}
+/* div.logo {
+  position: absolute;
+  left: 35%;
+  bottom: 70%;
+} */
+div.logo {
+  display: flex;
+  justify-content: center;
+}
+.summaries {
+  font-size: 1.5em;
+  background-color: #e6cfd6;
+  border-radius: 10px;
+  text-align: right;
+  margin: 10px;
+  padding: 5px;
+  display: list-item;
+  list-style-type: none;
+  direction: rtl;
+  cursor: pointer;
+}
+.summaries:hover {
+  background-color: #e7b4c2;
+}
+
+div.files a {
+  font-size: 1em;
+  text-decoration: none;
+  color: rgb(96, 81, 197);
+  display: block;
+}
+
+div.files > a:hover {
+  text-decoration: underline;
+}
+
+.firstbook::marker {
+  color: white;
+}
+.secendbook::marker {
+  color: white;
+}
+main {
+  display: flex;
+}
+div.allbooks {
+  width: 20%;
+  /* position: absolute; */
+  /* top: 35%; */
+  margin-left: 38%;
+  margin-top: -10%;
+  display: flex;
+  flex-direction: column;
+}
+/* div.allbooks {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+} */
+.h3main {
+  text-align: center;
+  font-size: 1.8em;
+  display: flex;
+  justify-content: center;
+}
+.aside {
+  background-color: #e6cfd6;
+  /* display: inline-block; */
+  margin-left: 85%;
+  padding: 15px 10px;
+  position: absolute;
+  bottom: 10%;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h3.h3 {
+  text-align: center;
+  padding-bottom: 10px;
+}
+/* .asideleft {
+  display: inline-block;
+  position: absolute;
+  left: 5%;
+  bottom: 30%;
+  padding: 15px;
+} */
+.asideleft {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 5%;
+}
+.body {
+  /* background-color: #c4b1e8; */
+  background-image: url(רקע2.jpg);
+  background-size: 100%;
+}
+.chabad,
+.arachim,
+.kolhaloshon {
+  padding-top: 15px;
+}
+
+.h5 {
+  text-align: right;
+  padding: 25px;
+}
+div.form {
+  background-color: aqua;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+  margin-left: 28%;
+  border-radius: 15px;
+}
+.h3footer {
+  text-align: center;
+  font-size: 25px;
+  display: flex;
+}
+
+.send {
+  background-color: #e7b4c2;
+  border: none;
+  font-size: 1.2em;
+  border-radius: 55px;
+  padding: 0.5rem;
+  cursor: pointer;
+  margin-right: 3px;
+  display: flex;
+}
+.send:hover {
+  background-color: #be95a1;
+}
+div.form label {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+form.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+footer {
+  display: flex;
+  margin-top: 45px;
+}
